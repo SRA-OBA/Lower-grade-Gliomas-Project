@@ -1,3 +1,5 @@
+Contributors: Ajisegiri Sewedo B, Balqees Mansour, Salaam Ridwan, Adekoya Adepeju, Melvin Khakabo, Elizabeth Abodunrin, Otuekong Emmanuel, Samuel Aladegbaiye
+
 ### Differential Expression Analysis of Newer Lower-Grade Gliomas Dataset Using Bioinformatics Approach 
 
 **Introduction**
