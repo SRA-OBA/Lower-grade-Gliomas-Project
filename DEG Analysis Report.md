@@ -1,12 +1,10 @@
-**Differential Expression Analysis of Newer Lower-Grade Gliomas Dataset Using Bioinformatics Approach**
+### Differential Expression Analysis of Newer Lower-Grade Gliomas Dataset Using Bioinformatics Approach 
 
 **Introduction**
 
 Lower-grade Gliomas (LGG) are brain tumors that occur in children and young adults, often with benign or low-grade behavior (Greuter _et al.,_ 2021). They account for about 10% of all brain tumors and can be associated with genetic mutations, such as IDH1, IDH2, or CHK2 (Lin _et al.,_ 2020). Isocitrate dehydrogenase (IDH) mutations, in particular, have been associated with a favorable prognosis of LGG and exhibit distinct profiles (Greuter _et al.,_ 2021).&#x20;
 
-Previous studies on LGG have characterized the TCGA dataset for IDH status classes and identification of relevant pathways (Ceccarelli _et al.,_ 2016).  However, given the heterogeneous nature of tumors and improved technologies, it becomes crucial to analyze the recent LGG dataset for any disparities.
-
-This study uses differential expression analysis to assess the newer TCGA-LGG dataset and compare it with previous findings.
+Previous studies on LGG have characterized the TCGA dataset for IDH status classes and identification of relevant pathways (Ceccarelli _et al.,_ 2016).  However, given the heterogeneous nature of tumors and improved technologies, it becomes crucial to analyze the recent LGG dataset for any disparities. This study uses differential expression analysis to assess the newer TCGA-LGG dataset and compare it with previous findings.
 
 **Method**
 
@@ -16,50 +14,13 @@ This study analyzed the TCGA-LGG dataset retrieved from the TCGA database. The G
 
 A heatmap was used to visualize the cluster of IDH statuses, including WT and Mutant, combined (Fig. 1). Meanwhile, the top 20 upregulated genes and the top 20 downregulated genes are shown using the boxplots (Fig. 2-3)
 
-<!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="21600,21600"
- o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f"
- stroked="f">
- <v:stroke joinstyle="miter"/>
- <v:formulas>
-  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
-  <v:f eqn="sum @0 1 0"/>
-  <v:f eqn="sum 0 0 @1"/>
-  <v:f eqn="prod @2 1 2"/>
-  <v:f eqn="prod @3 21600 pixelWidth"/>
-  <v:f eqn="prod @3 21600 pixelHeight"/>
-  <v:f eqn="sum @0 0 1"/>
-  <v:f eqn="prod @6 1 2"/>
-  <v:f eqn="prod @7 21600 pixelWidth"/>
-  <v:f eqn="sum @8 21600 0"/>
-  <v:f eqn="prod @7 21600 pixelHeight"/>
-  <v:f eqn="sum @10 21600 0"/>
- </v:formulas>
- <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
- <o:lock v:ext="edit" aspectratio="t"/>
-</v:shapetype><v:shape id="Picture_x0020_1" o:spid="_x0000_i1027" type="#_x0000_t75"
- style='width:220.8pt;height:294pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="file:///C:/Users/SALAAM~1/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png"
-  o:title=""/>
-</v:shape><![endif]--><!--[if !vml]-->![](file:///C:/Users/SALAAM~1/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg)<!--[endif]-->
-
+![LGG_gene_expression_heatmap](https://github.com/user-attachments/assets/dc697e3c-3816-4773-a099-2b63b417fd41)
 **Figure 1: A heatmap showing the gene expression profile of IDH statuses.**
 
-<!--[if gte vml 1]><v:shape id="Picture_x0020_2" o:spid="_x0000_i1026"
- type="#_x0000_t75" style='width:244.2pt;height:162.6pt;visibility:visible;
- mso-wrap-style:square'>
- <v:imagedata src="file:///C:/Users/SALAAM~1/AppData/Local/Temp/msohtmlclip1/01/clip_image003.png"
-  o:title=""/>
-</v:shape><![endif]--><!--[if !vml]-->![](file:///C:/Users/SALAAM~1/AppData/Local/Temp/msohtmlclip1/01/clip_image004.jpg)<!--[endif]-->
-
+![top_20_upregulated_genes_LGG](https://github.com/user-attachments/assets/7178161d-107f-418c-bac5-bb112cdc51f8)
 **Figure 2: A boxplot showing the top 20 upregulated genes from LGG dataset.**
 
-<!--[if gte vml 1]><v:shape id="Picture_x0020_3" o:spid="_x0000_i1025"
- type="#_x0000_t75" style='width:245.4pt;height:163.8pt;visibility:visible;
- mso-wrap-style:square'>
- <v:imagedata src="file:///C:/Users/SALAAM~1/AppData/Local/Temp/msohtmlclip1/01/clip_image005.png"
-  o:title=""/>
-</v:shape><![endif]--><!--[if !vml]-->![](file:///C:/Users/SALAAM~1/AppData/Local/Temp/msohtmlclip1/01/clip_image006.jpg)<!--[endif]-->
-
+![top_20_downregulated_genes_LGG](https://github.com/user-attachments/assets/8b7d46c0-d66f-433d-964d-6a4abff4c2b2)
 **Figure 3: A boxplot showing the top 20 downregulated genes from the LGG dataset.**
 
 **Discussion**
