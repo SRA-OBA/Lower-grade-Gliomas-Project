@@ -1,3 +1,5 @@
+Contributors: Ajisegiri Sewedo B, Balqees Mansour, Salaam Ridwan, Adekoya Adepeju, Melvin Khakabo, Elizabeth Abodunrin, Otuekong Emmanuel, Samuel Aladegbaiye
+
 ### MACHINE LEARNING ANALYSIS OF GLIOMA
 
 **INTRODUCTION**
